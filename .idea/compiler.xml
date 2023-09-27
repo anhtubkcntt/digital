@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-module" />
         <module name="application" />
-        <module name="shop-module" />
+        <module name="product-module" />
+        <module name="order-module" />
       </profile>
       <profile name="Annotation profile for booking" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -21,7 +21,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
-        <module name="order-module" />
+        <module name="shop-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
